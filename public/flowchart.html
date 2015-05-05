@@ -1,0 +1,29 @@
+<script src="/js/mermaid.full.min.js"></script>
+<script type="text/javascript">
+window.LiveReloadOptions = {host: 'localhost'}
+</script>
+<script src="/js/livereload.js"></script>
+
+<style>
+html {
+  text-align: center;
+  font-family: sans-serif;
+}
+</style>
+
+<div class="mermaid">
+
+graph TD
+  item1[Item One Happens]
+  item2[Item Two Happens]
+  item1-->item2
+
+  item2-->someChoice{What do<br/>we do with<br/>this choice?}
+  someChoice--YES-->branch1(Branch One)
+  someChoice--NO-->branch2(Branch Two)
+
+  classDef decision fill:#C8FFF2
+  class start start
+  class someChoice decision
+
+</div>
