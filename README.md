@@ -15,6 +15,8 @@ Ruby, and Bundler.
 
     bundle exec guard start
     
-Your flowcharts go in the public folder. Try out the included flowchart.html to get started.
+Your flowcharts go in the public folder. Try out the included flowchart.html to get started:
+
+    http://localhost:9292/flowchart.html
 
 On file save, you should see some feedback in your Guard console letting you know that a refresh was sent to the browser.
