@@ -1,6 +1,6 @@
 # mermaid-livereload
 
-Simple premade template for creating flowcharts in plain text, that get rendered in a browser. Packaged as a Sinatra app with Guard and guard-livereload, so that your browser will auto-reload every time you save a change to your flowchart.
+Simple premade template for creating flowcharts in plain text, that get rendered in a browser by [Mermaid](http://knsv.github.io/mermaid/flowchart.html). Packaged as a Sinatra app with Guard and guard-livereload, so that your browser will auto-reload every time you save a change to your flowchart.
 
 ## Requirements
 
@@ -11,7 +11,7 @@ Ruby, and Bundler.
     bundle install
     bundle exec rackup
     
-..to install depdencies, and start the Sinatra app. Leave that running, then in another terminal:
+..to install dependencies, and start the Sinatra app. Leave that running, then in another terminal:
 
     bundle exec guard start
     
